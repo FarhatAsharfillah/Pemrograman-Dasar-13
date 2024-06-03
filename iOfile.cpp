@@ -10,4 +10,7 @@ int main() {
     ofstream outfile;
     // menunjuk sebuah ke sebuah nama file
     outfile.open("contohfile.txt");
+
+    cout << ">= Menulis file, \'q\ untuk keluar" << endl;
+
 }
